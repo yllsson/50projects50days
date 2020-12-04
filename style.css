@@ -50,7 +50,7 @@ a {
 
 .entry {
   width: 30vw;
-  height: 10vh;
+  min-height: 5.8vh;
   cursor: pointer;
   margin: 10px;
   background-position: center;
@@ -58,7 +58,7 @@ a {
   position: relative;
   background-color: #e2e1e1;
   border-radius: 10px;
-  flex: 0.1;
+  flex: 0.075;
   transition: flex 0.8s ease-out;
 }
 
