@@ -34,6 +34,10 @@ header {
 a {
   text-decoration: none;
   color: #333333;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+
 }
 
 .entry {
@@ -46,6 +50,10 @@ a {
   position: relative;
   background-color: #e2e1e1;
   border-radius: 10px;
+  flex: 0.1;
+}
+
+.entry:hover {
   flex: 0.5;
 }
 
