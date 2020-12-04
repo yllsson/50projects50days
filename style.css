@@ -62,10 +62,10 @@ a {
   transition: flex 0.8s ease-out;
 }
 
-.entry:hover {
+/* .entry:hover {
   flex: 0.5;
   transition: flex 0.8s ease-out;
-}
+} */
 
 .entry h3 {
   position: absolute;
