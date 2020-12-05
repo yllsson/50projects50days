@@ -1,1 +1,15 @@
-// I'm wanting to add more functionality here for when the entry buttons expand...
+const entries = document.querySelectorAll('.entry');
+
+entries.forEach(entry => {
+  entry.addEventListener('mouseover', () => {
+    entry.classList.add('active');
+  })
+
+  entry.addEventListener('mouseleave', () => {
+    removeActiveClass();
+  })
+})
+
+function removeActiveClass() {
+  entries.forEach(entry => entry.classList.remove('active'));
+}
