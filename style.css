@@ -16,7 +16,6 @@ body {
   height: 100vh;
 }
 
-
 /* the container */
 
 .container {
@@ -43,7 +42,6 @@ header {
   text-align: center;
 }
 
-
 /* the list */
 
 a {
@@ -56,15 +54,16 @@ a {
 
 .entry {
   width: 50%;
-  min-height: 7vh;
+  /* min-height: 2em; */
   cursor: pointer;
   margin: 10px;
+  padding: 1em;
   background-position: center;
   background-size: cover;
   position: relative;
   background-color: #e2e1e1;
   border-radius: 10px;
-  flex: 0.075;
+  flex: 0.05;
   transition: flex 0.8s ease-out;
 }
 
@@ -75,21 +74,20 @@ a {
 
   .entry {
     width: 80%;
-    min-height: 7vh;
+    /* min-height: 7vh; */
   }
 }
 
 @media screen and (max-width: 450px) {
   .entry {
     width: 90%;
-    min-height: 10vh;
+    /* min-height: 10vh; */
   }
 }
 
 .entry h3 {
-  position: absolute;
-  left: 20px;
-  top: 5px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .entry p {
@@ -103,7 +101,7 @@ a {
 }
 
 .entry.active {
-  flex: 0.3;
+  flex: 1;
   transition: flex 0.8s ease-out;
 }
 
