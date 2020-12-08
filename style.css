@@ -54,7 +54,6 @@ a {
 
 .entry {
   width: 50%;
-  /* min-height: 2em; */
   cursor: pointer;
   margin: 10px;
   padding: 1em;
@@ -74,14 +73,12 @@ a {
 
   .entry {
     width: 80%;
-    /* min-height: 7vh; */
   }
 }
 
 @media screen and (max-width: 450px) {
   .entry {
     width: 90%;
-    /* min-height: 10vh; */
   }
 }
 
