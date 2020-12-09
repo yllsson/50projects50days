@@ -12,3 +12,5 @@ Day 2 - 05/12/2020 - Progress Steps
 Day 3 - 06/12/2020 - Rotating Navigation
 
 Day 4 - 08/12/2020 - Hidden Search Widget
+
+Day 5 - 09/12/2020 - Blurry Loading
