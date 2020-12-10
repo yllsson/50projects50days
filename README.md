@@ -14,3 +14,5 @@ Day 3 - 06/12/2020 - Rotating Navigation
 Day 4 - 08/12/2020 - Hidden Search Widget
 
 Day 5 - 09/12/2020 - Blurry Loading
+
+Day 6 - 10/12/2020 - Scroll Animation
