@@ -16,3 +16,5 @@ Day 4 - 08/12/2020 - Hidden Search Widget
 Day 5 - 09/12/2020 - Blurry Loading
 
 Day 6 - 10/12/2020 - Scroll Animation
+
+Day 7 - 11/12/2020 - Split Landing Page
