@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 200vh;
 }
 
 /* the container */
@@ -24,7 +24,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   margin: 10px;
-  height: 100vh;
+  height: 200vh;
   width: 90vw;
 }
 
@@ -62,7 +62,7 @@ a {
   position: relative;
   background-color: #e2e1e1;
   border-radius: 10px;
-  flex: 0.03;
+  flex: 0.01;
   transition: flex 0.8s ease-out;
 }
 
@@ -82,7 +82,7 @@ a {
 }
 
 .entry.active {
-  flex: 0.2;
+  flex: 0.08;
   transition: flex 0.8s ease-out;
 }
 
@@ -91,18 +91,18 @@ a {
   transition: opacity 0.2s ease-in 0.4s;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   header {
     width: 90%;
   }
 
   .entry {
     width: 80%;
-    flex: 0.05;
+    flex: 0.02;
   }
 
   .entry.active {
-    flex: 0.3;
+    flex: 0.05;
     transition: flex 0.8s ease-out;
   }
 }
@@ -114,11 +114,11 @@ a {
 
   .entry {
     width: 80%;
-    flex: 0.05;
+    flex: 0.02;
   }
 
   .entry.active {
-    flex: 0.3;
+    flex: 0.06;
     transition: flex 0.8s ease-out;
   }
 }
@@ -126,6 +126,7 @@ a {
 @media screen and (max-width: 450px) {
   .entry {
     width: 90%;
+    flex: 0.01;
   }
 
   .entry p {
