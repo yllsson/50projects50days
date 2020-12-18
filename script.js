@@ -1,4 +1,6 @@
-// this bit of code allows me to add the name of the project into the array and stop copy-pasting the same code over and over on my HTML page
+/* this bit of code allows me to simply add the name of the project into the array 
+to generate a new entry on the homepage, 
+and stop copy-pasting the same code over and over in index.html */
 
 const projects = [
   'Expanding Cards', 
