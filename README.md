@@ -20,3 +20,5 @@ Day 6 - 10/12/2020 - Scroll Animation
 Day 7 - 11/12/2020 - Split Landing Page
 
 Day 8 - 14/12/2020 - Form Wave Animation
+
+Day 9 - 18/12/2020 - Sound Board
