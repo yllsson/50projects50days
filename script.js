@@ -27,7 +27,6 @@ projects.forEach(project => {
 
   h3.innerText = `Day ${projects.indexOf(project)+1}: ${project}`
   p.innerText = `Click to see preview`
-
   
   container.appendChild(entry);
   entry.appendChild(link);
