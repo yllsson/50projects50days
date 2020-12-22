@@ -11,7 +11,8 @@ const projects = [
   'Scroll Animation', 
   'Split Landing Page',
   'Form Wave Animation',
-  'Sound Board'
+  'Sound Board',
+  'Dad Jokes'
 ]
 const container = document.querySelector('.container');
 
