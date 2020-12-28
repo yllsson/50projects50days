@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 200vh;
 }
 
@@ -24,7 +24,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   margin: 10px;
-  height: 200vh;
+  min-height: 100vh;
   width: 90vw;
 }
 
@@ -62,7 +62,7 @@ a {
   position: relative;
   background-color: #e2e1e1;
   border-radius: 10px;
-  flex: 0.01;
+  flex: initial;
   transition: flex 0.8s ease-out;
 }
 
@@ -82,7 +82,7 @@ a {
 }
 
 .entry.active {
-  flex: 0.08;
+  flex: 0.2;
   transition: flex 0.8s ease-out;
 }
 
@@ -98,35 +98,18 @@ a {
 
   .entry {
     width: 80%;
-    flex: 0.02;
-  }
-
-  .entry.active {
-    flex: 0.05;
-    transition: flex 0.8s ease-out;
   }
 }
 
 @media screen and (max-width: 800px) {
-  header {
-    width: 90%;
-  }
-
-  .entry {
-    width: 80%;
-    flex: 0.02;
-  }
-
   .entry.active {
-    flex: 0.06;
-    transition: flex 0.8s ease-out;
+    flex: 0.3;
   }
 }
 
 @media screen and (max-width: 450px) {
   .entry {
     width: 90%;
-    flex: 0.01;
   }
 
   .entry p {
