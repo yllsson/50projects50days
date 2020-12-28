@@ -12,7 +12,8 @@ const projects = [
   'Split Landing Page',
   'Form Wave Animation',
   'Sound Board',
-  'Dad Jokes'
+  'Dad Jokes',
+  'Event KeyCodes'
 ]
 const container = document.querySelector('.container');
 
