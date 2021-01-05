@@ -26,3 +26,5 @@ Day 9 - 18/12/2020 - Sound Board
 Day 10 - 22/12/2020 - Dad Jokes
 
 Day 11 - 28/12/2020 - Event KeyCodes
+
+Day 12 - 05/01/2021 - FAQ Collapse
