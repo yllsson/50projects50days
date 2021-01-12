@@ -28,3 +28,5 @@ Day 10 - 22/12/2020 - Dad Jokes
 Day 11 - 28/12/2020 - Event KeyCodes
 
 Day 12 - 05/01/2021 - FAQ Collapse
+
+Day 13 - 12/01/2021 - Random Choice Picker

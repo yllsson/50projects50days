@@ -14,7 +14,8 @@ const projects = [
   'Sound Board',
   'Dad Jokes',
   'Event KeyCodes',
-  'FAQ Collapse'
+  'FAQ Collapse',
+  'Random Choice Picker'
 ];
 const container = document.querySelector('.container');
 
