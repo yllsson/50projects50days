@@ -16,7 +16,8 @@ const projects = [
   'Event KeyCodes',
   'FAQ Collapse',
   'Random Choice Picker',
-  'Animated Navigation'
+  'Animated Navigation',
+  'Incrementing Counter',
 ];
 const container = document.querySelector('.container');
 
