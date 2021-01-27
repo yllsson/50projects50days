@@ -18,7 +18,8 @@ const projects = [
   'Random Choice Picker',
   'Animated Navigation',
   'Incrementing Counter',
-  'Drink Water'
+  'Drink Water',
+  'Movie App'
 ];
 const container = document.querySelector('.container');
 
