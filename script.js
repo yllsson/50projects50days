@@ -20,11 +20,11 @@ const projects = [
   'Incrementing Counter',
   'Drink Water',
   'Movie App',
-  'Background Slider',
+  'Background Slider'
 ];
 const container = document.querySelector('.container');
 
-projects.forEach((project) => {
+projects.forEach(project => {
   const entry = document.createElement('div');
   const link = document.createElement('a');
   const h3 = document.createElement('h3');
@@ -50,7 +50,7 @@ projects.forEach((project) => {
 
 const entries = document.querySelectorAll('.entry');
 
-entries.forEach((entry) => {
+entries.forEach(entry => {
   entry.addEventListener('mouseover', () => {
     entry.classList.add('active');
   });
@@ -61,5 +61,13 @@ entries.forEach((entry) => {
 });
 
 function removeActiveClass() {
-  entries.forEach((entry) => entry.classList.remove('active'));
+  entries.forEach(entry => entry.classList.remove('active'));
 }
+
+// this one expands the info box when clicking the i button
+
+const infoContainer = document.querySelector('.info');
+
+infoContainer.addEventListener('click', () => {
+  infoContainer.classList.toggle('active');
+});
