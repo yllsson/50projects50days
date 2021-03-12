@@ -58,15 +58,12 @@ header {
 .info .button {
   position: absolute;
   margin: auto;
+  cursor: pointer;
 }
 
 .info i {
   color: #333;
   font-size: 3rem;
-}
-
-.info i:hover {
-  transform: scale(1.1);
 }
 
 .info p {

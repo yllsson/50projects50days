@@ -67,7 +67,19 @@ function removeActiveClass() {
 // this one expands the info box when clicking the i button
 
 const infoContainer = document.querySelector('.info');
+const paragraph = document.querySelector('.paragraph');
 
 infoContainer.addEventListener('click', () => {
   infoContainer.classList.toggle('active');
+
+  if (paragraph.innerHTML === '') {
+    paragraph.innerHTML = `This site tracks my progress through the udemy course: <br>
+    <a href="https://www.udemy.com/share/103Pv2BUIYcldTTQ==/"
+      >50 Projects In 50 Days - HTML, CSS & Javascript</a
+    >
+    <br />
+    by Brad Traversy and Florin Pop.`;
+  } else {
+    paragraph.innerHTML = '';
+  }
 });
